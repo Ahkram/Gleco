@@ -1,0 +1,95 @@
+body {
+    background-color: #d3d3d3;
+    color: #fff;
+    font-family: 'Afacad Flux', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: black;
+    padding: 20px 0;
+    width: 100vw;
+    position: relative;
+    left: 0;
+    margin: 0;
+}
+
+.banner h1 {
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Afacad Flux', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+header, nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+
+.primero {
+    width: 55%; 
+}
+
+.articulos {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.articulos h2 {
+    margin-top: 0;
+    color: #ecdd0a;
+}
+
+.side-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+
+.imagen-jacob img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+video {
+    border-radius: 10px;
+}

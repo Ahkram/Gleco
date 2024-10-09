@@ -1,0 +1,117 @@
+body {
+    background-color: #d3d3d3;
+    color: #fff;
+    font-family: 'Afacad Flux', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: black;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0;
+}
+
+.banner h1 {
+    color: #ffffff;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+header, nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+    max-width: 400px;
+    border: 2px solid #444444;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #a03bff;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #a03bff;
+    outline: none;
+}
+
+button {
+    background-color: #a03bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c71585;
+}
+
+.map-container {
+    width: 600px; 
+    margin-top: 40px; /* Añade margen superior para separar el mapa del formulario */
+}

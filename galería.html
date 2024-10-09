@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gleco Magazine</title>
+    <link rel="icon" href="imgs/g.png">
+    <link rel="stylesheet" href="css/cssgaleria.css">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <div class="banner">
+        <h1>GLECO MAGAZINE</h1>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="galería.html">Galería</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contactanos.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box">
+            <img src="imgs/m.jpeg">
+        </div>
+        <div class="box">
+            <img src="imgs/n.jpg">
+        </div>
+        <div class="box">
+            <img src="imgs/j.jpg">
+        </div>
+
+        <body onclick="PlayAudio()">
+            <audio id="musica" autoplay controls loop>
+               <source src="imgs/bey.mp3" type="audio/mpeg">
+               <h1>No compatible</h1>
+            </audio>
+           
+            <script>
+               function PlayAudio(){
+                   document.getElementById("musica").play()
+               }
+            </script>
+
+</body>
+</html>
